@@ -8,7 +8,6 @@ int main(int argc, char** argv) {
 	
 	int liczba;
 	int t[1000];
-	//int max[1000];
 	int minimum =0;
 	int maximum =1000;
 	int i;
@@ -21,16 +20,17 @@ int main(int argc, char** argv) {
 		{
 		if(minimum < t[i])
 		minimum = t[i];
-		cout << oct <<"Najwieksza liczba: "<< minimum << endl; 
+
 	}
 	{
 		if(maximum > t[i])
 		maximum = t[i];
-		cout << oct <<"Najwieksza liczba: "<<  maximum;
+
 	}
 		
 }
-	
+	cout << oct <<"Najwieksza liczba: "<< minimum << endl; 
+	cout << oct <<"Najwieksza liczba: "<<  maximum;
 	
 }
 	
